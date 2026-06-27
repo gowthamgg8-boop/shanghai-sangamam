@@ -51,9 +51,9 @@ body {
   padding-bottom: 14px;
 }
 
-.logo { display: flex; flex-direction: column; line-height: 1.1; }
-.logo-text { font-size: 1.2rem; font-weight: 700; color: var(--saffron); }
-.logo-tamil { font-family: 'Noto Sans Tamil', sans-serif; font-size: 0.85rem; color: var(--green); }
+.logo { display: flex; align-items: center; }
+.logo-img { height: 56px; width: auto; border-radius: 50%; object-fit: cover; }
+.footer-logo-img { height: 70px; width: auto; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
 
 .main-nav { display: flex; gap: 28px; }
 .main-nav a {
