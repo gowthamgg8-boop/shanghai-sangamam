@@ -6,109 +6,140 @@
   <title>Contact — Shanghai Sangamam</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Noto+Sans+Tamil:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
 
+  <div class="top-bar">
+    <span>Tamil Community in Shanghai &nbsp;•&nbsp; Since 2004 &nbsp;•&nbsp; சங்கமம்</span>
+  </div>
+
   <header class="site-header">
     <div class="container">
-      <div class="logo">
-        <a href="../index.html"><img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="logo-img" /></a>
-      </div>
-      <nav class="main-nav">
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
+      <nav class="nav-left">
         <a href="events.html">Events</a>
         <a href="community.html">Community</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="logo-center">
+        <a href="../index.html">
+          <img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="logo-img" />
+          <span class="logo-main">Shanghai <span>Sangamam</span></span>
+          <span class="logo-sub">Connecting Tamil hearts across China</span>
+        </a>
+      </div>
+      <nav class="nav-right">
         <a href="contact.html">Contact</a>
+        <a href="community.html" style="color:var(--saffron);">Join Us</a>
       </nav>
       <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
     </div>
+    <nav class="mobile-nav" id="mobile-nav">
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <div class="page-hero">
-    <p class="page-tamil">தொடர்பு கொள்ளுங்கள்</p>
-    <h1>Get In Touch 📬</h1>
-    <p>Questions, ideas, or just want to say vanakkam? We'd love to hear from you.</p>
+  <div class="page-hero-mag">
+    <div class="container">
+      <span class="page-tag">தொடர்பு — Contact</span>
+      <h1>Get In Touch</h1>
+      <p>Questions, ideas, or just want to say vanakkam? We'd love to hear from you. 🙏</p>
+    </div>
   </div>
 
   <section class="section">
-    <div class="container" style="display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start;">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1.3fr 1fr; gap:48px; align-items:start;">
 
-      <div>
-        <h2 style="text-align:left; margin-bottom:24px;">Send Us a Message</h2>
-        <form id="contact-form">
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Anna / Akka / Your name" required />
+        <div>
+          <div class="section-header" style="margin-bottom:28px;">
+            <h2>Send a Message</h2>
           </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required />
-          </div>
-          <div class="form-group">
-            <label for="subject">What's this about?</label>
-            <select id="subject" name="subject">
-              <option value="">Select a topic</option>
-              <option value="event">Event enquiry</option>
-              <option value="join">Join the community</option>
-              <option value="volunteer">Volunteer / organise</option>
-              <option value="sponsor">Sponsorship</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" style="background:var(--saffron); color:#fff; border-color:var(--saffron); width:100%;">Send Message 🙏</button>
-        </form>
-        <p id="form-success" style="display:none; margin-top:16px; color:var(--green); font-weight:600;">Thank you! We'll get back to you soon. Vanakkam! 🙏</p>
-      </div>
-
-      <div>
-        <h2 style="text-align:left; margin-bottom:24px;">Find Us</h2>
-        <div style="display:flex; flex-direction:column; gap:20px;">
-          <div style="background:var(--cream); border-radius:var(--radius); padding:20px; border:1px solid var(--border);">
-            <div style="font-size:1.5rem; margin-bottom:8px;">📍</div>
-            <h3 style="font-size:0.95rem; margin-bottom:4px;">Location</h3>
-            <p style="color:var(--text-light); font-size:0.9rem;">Shanghai, China</p>
-          </div>
-          <div style="background:var(--cream); border-radius:var(--radius); padding:20px; border:1px solid var(--border);">
-            <div style="font-size:1.5rem; margin-bottom:8px;">📸</div>
-            <h3 style="font-size:0.95rem; margin-bottom:4px;">Instagram</h3>
-            <a href="https://www.instagram.com/shanghaisangamam/" target="_blank" rel="noopener" style="color:var(--saffron); font-size:0.9rem;">@shanghaisangamam</a>
-          </div>
-          <div style="background:var(--cream); border-radius:var(--radius); padding:20px; border:1px solid var(--border);">
-            <div style="font-size:1.5rem; margin-bottom:8px;">👍</div>
-            <h3 style="font-size:0.95rem; margin-bottom:4px;">Facebook</h3>
-            <a href="https://facebook.com/profile.php?id=61591375113423" target="_blank" rel="noopener" style="color:var(--saffron); font-size:0.9rem;">Shanghai Sangamam</a>
-          </div>
-          <div style="background:var(--cream); border-radius:var(--radius); padding:20px; border:1px solid var(--border);">
-            <div style="font-size:1.5rem; margin-bottom:8px;">▶️</div>
-            <h3 style="font-size:0.95rem; margin-bottom:4px;">YouTube</h3>
-            <a href="https://www.youtube.com/@Shanghaisangamam" target="_blank" rel="noopener" style="color:var(--saffron); font-size:0.9rem;">@Shanghaisangamam</a>
-          </div>
+          <form id="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Anna / Akka / Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-group full">
+                <label for="subject">What's this about?</label>
+                <select id="subject" name="subject">
+                  <option value="">Select a topic</option>
+                  <option value="event">Event enquiry</option>
+                  <option value="join">Join the community</option>
+                  <option value="volunteer">Volunteer / organise</option>
+                  <option value="sponsor">Sponsorship</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary-dark" style="width:100%; text-align:center;">Send Message 🙏</button>
+          </form>
+          <p id="form-success" style="display:none; margin-top:16px; color:var(--green); font-weight:700; font-size:0.9rem; padding:14px; background:#EAF3DE; border-radius:4px;">Thank you! We'll get back to you soon. Vanakkam! 🙏</p>
         </div>
-      </div>
 
+        <div style="display:flex; flex-direction:column; gap:2px;">
+          <div style="background:var(--dark); padding:28px 24px;">
+            <div style="font-size:0.65rem; color:var(--saffron); font-weight:700; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:12px;">Location</div>
+            <div style="font-size:1rem; font-weight:700; color:#fff; margin-bottom:4px;">Shanghai, China 📍</div>
+            <div style="font-size:0.82rem; color:rgba(255,255,255,0.45);">Serving the Tamil community across Shanghai</div>
+          </div>
+          <a href="https://www.instagram.com/shanghaisangamam/" target="_blank" rel="noopener" style="display:block; background:#E1306C; padding:28px 24px; transition:opacity 0.2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">
+            <div style="font-size:0.65rem; color:rgba(255,255,255,0.7); font-weight:700; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px;">Instagram</div>
+            <div style="font-size:1rem; font-weight:700; color:#fff;">@shanghaisangamam</div>
+          </a>
+          <a href="https://facebook.com/profile.php?id=61591375113423" target="_blank" rel="noopener" style="display:block; background:#1877F2; padding:28px 24px; transition:opacity 0.2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">
+            <div style="font-size:0.65rem; color:rgba(255,255,255,0.7); font-weight:700; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px;">Facebook</div>
+            <div style="font-size:1rem; font-weight:700; color:#fff;">Shanghai Sangamam</div>
+          </a>
+          <a href="https://www.youtube.com/@Shanghaisangamam" target="_blank" rel="noopener" style="display:block; background:#FF0000; padding:28px 24px; transition:opacity 0.2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">
+            <div style="font-size:0.65rem; color:rgba(255,255,255,0.7); font-weight:700; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px;">YouTube</div>
+            <div style="font-size:1rem; font-weight:700; color:#fff;">@Shanghaisangamam</div>
+          </a>
+        </div>
+
+      </div>
     </div>
   </section>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-brand">
-        <img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="footer-logo-img" />
-        <p>Connecting Tamil hearts across China 🌏❤️</p>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="footer-logo-img" />
+          <span class="brand-name">Shanghai <span>Sangamam</span></span>
+          <p class="brand-tagline">Connecting Tamil hearts across China 🌏❤️<br>A community since 2004.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="about.html">About Us</a>
+          <a href="events.html">Events</a>
+          <a href="community.html">Community</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <a href="https://www.instagram.com/shanghaisangamam/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://facebook.com/profile.php?id=61591375113423" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.youtube.com/@Shanghaisangamam" target="_blank" rel="noopener">YouTube</a>
+        </div>
       </div>
-      <nav class="footer-nav">
-        <a href="about.html">About</a>
-        <a href="events.html">Events</a>
-        <a href="community.html">Community</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <p class="footer-copy">&copy; 2026 Shanghai Sangamam. Made with ❤️ for the Tamil community.</p>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 Shanghai Sangamam. Made with ❤️ for the Tamil community.</span>
+        <span class="footer-tamil">சங்கமம் • since 2004</span>
+      </div>
     </div>
   </footer>
 
@@ -120,10 +151,5 @@
       this.reset();
     });
   </script>
-  <style>
-    @media (max-width: 768px) {
-      .section .container { grid-template-columns: 1fr !important; }
-    }
-  </style>
 </body>
 </html>

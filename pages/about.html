@@ -6,91 +6,146 @@
   <title>About — Shanghai Sangamam</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Noto+Sans+Tamil:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
 
+  <div class="top-bar">
+    <span>Tamil Community in Shanghai &nbsp;•&nbsp; Since 2004 &nbsp;•&nbsp; சங்கமம்</span>
+  </div>
+
   <header class="site-header">
     <div class="container">
-      <div class="logo">
-        <a href="../index.html"><img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="logo-img" /></a>
-      </div>
-      <nav class="main-nav">
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
+      <nav class="nav-left">
         <a href="events.html">Events</a>
         <a href="community.html">Community</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="logo-center">
+        <a href="../index.html">
+          <img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="logo-img" />
+          <span class="logo-main">Shanghai <span>Sangamam</span></span>
+          <span class="logo-sub">Connecting Tamil hearts across China</span>
+        </a>
+      </div>
+      <nav class="nav-right">
         <a href="contact.html">Contact</a>
+        <a href="community.html" style="color:var(--saffron);">Join Us</a>
       </nav>
       <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
     </div>
+    <nav class="mobile-nav" id="mobile-nav">
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <div class="page-hero">
-    <p class="page-tamil">எங்களைப் பற்றி</p>
-    <h1>About Us</h1>
-    <p>The story of Shanghai Sangamam — born from community, built with love.</p>
+  <div class="page-hero-mag">
+    <div class="container">
+      <span class="page-tag">எங்களைப் பற்றி — About Us</span>
+      <h1>Our Story</h1>
+      <p>Born from community, built with love — Shanghai Sangamam has been connecting Tamil hearts across China since 2004.</p>
+    </div>
   </div>
 
   <section class="section">
-    <div class="container" style="max-width:780px;">
-      <h2 style="text-align:left; margin-bottom:20px;">Our Story</h2>
-      <p style="color:#555; margin-bottom:16px;">Shanghai Sangamam was born from a simple feeling — the longing for home. Tamil-speaking Indians have been calling Shanghai home for years, building careers, raising families, and carrying their culture thousands of miles from their roots.</p>
-      <p style="color:#555; margin-bottom:16px;">We came together to make sure no Tamil in Shanghai ever feels alone. Whether you just landed or you've been here for years, this is your community. Vanakkam! 🙏</p>
-      <p style="color:#555;">From Pongal celebrations to New Year get-togethers, from WhatsApp groups to community dinners — Shanghai Sangamam is where Tamil hearts connect across China. 🌏❤️</p>
-    </div>
-  </section>
-
-  <section class="section" style="background:var(--cream);">
     <div class="container">
-      <h2>What We Do</h2>
-      <div class="pillars-grid">
-        <div class="pillar-card">
-          <div class="pillar-icon">🎊</div>
-          <h3>Cultural Events</h3>
-          <p>Celebrate Tamil festivals and cultural milestones together in Shanghai.</p>
+      <div style="display:grid; grid-template-columns:1.2fr 1fr; gap:48px; align-items:start;">
+        <div>
+          <div class="section-header" style="margin-bottom:24px;">
+            <h2>Who We Are</h2>
+          </div>
+          <p style="color:var(--text-light); margin-bottom:16px; line-height:1.8; font-size:0.95rem;">Shanghai Sangamam was born from a simple feeling — the longing for home. Tamil-speaking Indians have been calling Shanghai home for years, building careers, raising families, and carrying their culture thousands of miles from their roots.</p>
+          <p style="color:var(--text-light); margin-bottom:16px; line-height:1.8; font-size:0.95rem;">Since 2004, we have been the gathering point for Tamil hearts in China. Whether you just landed or you've been here for two decades — this is your community. Vanakkam! 🙏</p>
+          <p style="color:var(--text-light); line-height:1.8; font-size:0.95rem;">From Pongal celebrations to New Year get-togethers, from WhatsApp groups to community dinners — Shanghai Sangamam is where Tamil families connect, support each other, and celebrate the culture that defines us. 🌏❤️</p>
         </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">🤝</div>
-          <h3>Community Building</h3>
-          <p>Connect Tamil-speaking Indians in Shanghai through meetups and networks.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">🏠</div>
-          <h3>Settlement Support</h3>
-          <p>Practical help and guidance for newly arrived Tamils in China.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">💼</div>
-          <h3>Networking</h3>
-          <p>Business and professional connections within our Tamil community.</p>
+        <div style="display:flex; flex-direction:column; gap:2px;">
+          <div style="background:var(--saffron); padding:28px 24px;">
+            <div style="font-size:2rem; font-weight:800; color:#fff; line-height:1;">2004</div>
+            <div style="font-size:0.7rem; color:rgba(255,255,255,0.8); text-transform:uppercase; letter-spacing:1.5px; margin-top:4px;">Year Founded</div>
+          </div>
+          <div style="background:var(--dark); padding:28px 24px;">
+            <div style="font-size:2rem; font-weight:800; color:var(--saffron); line-height:1;">20+</div>
+            <div style="font-size:0.7rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:1.5px; margin-top:4px;">Years of Community</div>
+          </div>
+          <div style="background:#F7F7F5; padding:28px 24px; border:1px solid var(--border);">
+            <div style="font-size:2rem; font-weight:800; color:var(--green); line-height:1;">SH</div>
+            <div style="font-size:0.7rem; color:var(--text-light); text-transform:uppercase; letter-spacing:1.5px; margin-top:4px;">Shanghai, China</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container" style="max-width:780px; text-align:center;">
-      <h2>Get Involved</h2>
-      <p style="color:#555; margin-bottom:28px;">Want to help organise events, volunteer, or simply be part of the community? We'd love to have you.</p>
-      <a href="contact.html" class="btn btn-primary" style="background:var(--saffron); color:#fff; border-color:var(--saffron);">Get in Touch</a>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>What We Do</h2>
+      </div>
+      <div class="pillars-mag">
+        <div class="pillar-mag">
+          <span class="pillar-icon-mag">🎊</span>
+          <h3>Cultural Events</h3>
+          <p>Celebrate Tamil festivals and cultural milestones together in Shanghai — Pongal, Diwali, Tamil New Year and more.</p>
+        </div>
+        <div class="pillar-mag">
+          <span class="pillar-icon-mag">🤝</span>
+          <h3>Community Building</h3>
+          <p>Connect Tamil-speaking Indians in Shanghai through meetups, networks, and shared experiences.</p>
+        </div>
+        <div class="pillar-mag">
+          <span class="pillar-icon-mag">🏠</span>
+          <h3>Settlement Support</h3>
+          <p>Practical help and guidance for newly arrived Tamils — navigating life, work, and family in China.</p>
+        </div>
+        <div class="pillar-mag">
+          <span class="pillar-icon-mag">💼</span>
+          <h3>Networking</h3>
+          <p>Business and professional connections within our Tamil community across Shanghai and China.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-saffron">
+    <div class="container" style="text-align:center;">
+      <div class="section-header" style="justify-content:center; border-bottom-color:rgba(255,255,255,0.3);">
+        <h2>Get Involved</h2>
+      </div>
+      <p style="color:rgba(255,255,255,0.85); margin-bottom:32px; max-width:520px; margin-left:auto; margin-right:auto; font-size:0.95rem;">Want to help organise events, volunteer, or simply be part of the community? We'd love to have you, anna/akka!</p>
+      <a href="contact.html" class="btn btn-primary-dark">Get in Touch →</a>
     </div>
   </section>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-brand">
-        <img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="footer-logo-img" />
-        <p>Connecting Tamil hearts across China 🌏❤️</p>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="../assets/logo/ss-logo.jpg" alt="Shanghai Sangamam" class="footer-logo-img" />
+          <span class="brand-name">Shanghai <span>Sangamam</span></span>
+          <p class="brand-tagline">Connecting Tamil hearts across China 🌏❤️<br>A community since 2004.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="about.html">About Us</a>
+          <a href="events.html">Events</a>
+          <a href="community.html">Community</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <a href="https://www.instagram.com/shanghaisangamam/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://facebook.com/profile.php?id=61591375113423" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.youtube.com/@Shanghaisangamam" target="_blank" rel="noopener">YouTube</a>
+        </div>
       </div>
-      <nav class="footer-nav">
-        <a href="about.html">About</a>
-        <a href="events.html">Events</a>
-        <a href="community.html">Community</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <p class="footer-copy">&copy; 2026 Shanghai Sangamam. Made with ❤️ for the Tamil community.</p>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 Shanghai Sangamam. Made with ❤️ for the Tamil community.</span>
+        <span class="footer-tamil">சங்கமம் • since 2004</span>
+      </div>
     </div>
   </footer>
 
